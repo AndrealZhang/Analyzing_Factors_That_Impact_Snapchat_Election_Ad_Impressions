@@ -18,3 +18,8 @@ The R squared value means that around 60% of the data can be displayed using thi
 
 The R squared value is still around 60% and the significant F value decreased, meaning that there is a very high probability that the amount spent impacts the number of impressions. We can better visualize this relationship with a scatter plot.
 
+![alt_text](https://github.com/AndrealZhang/Analyzing_Factors_That_Impact_Snapchat_Election_Ad_Impressions/blob/master/spending_vs_impressions_scatterplot.png)
+
+## Summary and Implications
+1. Regardless of political campaign, 60% of the number of implications can be predicted using this formula: number of impressions = 348.84(amount spent) + 67694
+
