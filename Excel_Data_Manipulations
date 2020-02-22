@@ -1,0 +1,14 @@
+I first filtered the data for advertisements run in the United States and deleted the columns with irrelevant data to further simplify and clarify the data. Since I am analyzing how duration, targeted gender, targeted age, and amount spent affect the number of impressions REGARDLESS of political campaign, I ignored the columns with the organization name, candidate ballot information, and paying advertiser name. Then I manipulated duration, targeted gender, and targeted age in preparation for a multiple regression analysis.
+
+DURATION
+To find the duration (in days) the ad was run, I first filtered out the blank cells and then used the text to data function to reformat the start date and end date into MM/DD/YY. Then I created another column and calculated the days the ad was run by subtracting start date from the end date. 
+
+TARGETED GENDER
+Since the cells under gender are not numerical, I created a new column and used the IF function to translate the data into numbers. If the cell under gender is blank (no specific gender targeted), the function would output a 1 and if there was an entry (FEMALE or MALE) in the cell, it would output a 0.
+
+TARGETED AGE
+Since the cells under age consist of overlapping ranges and blank cells, I created a new column and used the IF function similar to how I used it for targeted gender. If the cell under the age column is blank (not specific targeted age group), the IF function would output a 1. If the cell has a targeted age, the output would be a 0. 
+
+Using the regression function under data analysis, I created a multiple regression with the Y variable as impression and the X variables as duration, targeted gender, targeted age, and amount spent.
+
+I repeated this step with only “amount spent” and “impression” for a simple linear regression model and then graph “amount spent” and “impression” on a scatter plot. Add a linear regression line and display the equation and R squared. Finish the graph by adding a title and axes labels.
