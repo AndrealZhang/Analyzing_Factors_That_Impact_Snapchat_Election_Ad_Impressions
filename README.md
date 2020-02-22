@@ -8,3 +8,5 @@ What factors affect the number of impressions an advertisement receives? Looking
 
 ## Multiple Regression
 To find the relationship between these variables and impression, I conducted a multiple regression analysis.
+
+![alt_text](https://github.com/AndrealZhang/Analyzing_Factors_That_Impact_Snapchat_Election_Ad_Impressions/blob/master/Multi_regression_model1.png)
