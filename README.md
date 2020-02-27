@@ -21,5 +21,5 @@ The R squared value is still around 60% and the significant F value decreased, m
 ![alt_text](https://github.com/AndrealZhang/Analyzing_Factors_That_Impact_Snapchat_Election_Ad_Impressions/blob/master/spending_vs_impressions_scatterplot.png)
 
 ## Summary and Implications
-1. Regardless of political campaign, 60% of the number of implications can be predicted using this formula: number of impressions = 348.84(amount spent) + 67694
-2. Out of the factors analyzed, only spending impacts impressions.
+1. Regardless of political campaign, 60% of the number of implications can be predicted using this formula: number of impressions = 348.84(amount spent) + 67694.
+2. Out of the factors analyzed, the only statistically significant finding is that spending impacts impressions.
