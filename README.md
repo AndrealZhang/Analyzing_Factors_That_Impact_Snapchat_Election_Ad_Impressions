@@ -22,4 +22,4 @@ The R squared value is still around 60% and the significant F value decreased, m
 
 ## Summary and Implications
 1. Regardless of political campaign, 60% of the number of implications can be predicted using this formula: number of impressions = 348.84(amount spent) + 67694
-2.
+2. Out of the factors analyzed, only spending impacts impressions.
